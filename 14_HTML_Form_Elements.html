@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #table_form{
+            background-color: teal;
+            width: 350px;
+            color: white;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <!-- input and label -->
+    <div>
+        <form>
+            <label for="username">User Name :</label>
+            <input type="text" id="username">
+            <br>
+            <label for="password">Password :</label>
+            <input type="password" id="password">
+            <br>
+            <input type="submit">
+        </form>
+    </div>
+
+    <!-- Table Alignment -->
+    <div id="table_form">
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label for="username1">User Name :</label>
+                    </td>
+                    <td>
+                        <input type="text" id="username1">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password1">Password :</label>
+                    </td>
+                    <td>
+                        <input type="password" id="password1">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="select-language">Select a Language :</label>
+                    </td>
+                    <td>
+                        <select id="select-language1">
+                            <option value="html">HTML</option>
+                            <option value="javascript">JavaScripts</option>
+                            <option value="css">CSS</option>
+                            <option value="bootstrap">Bootstrap</option>
+                            <option value="jquery">JQuery</option>
+                            <option value="angularJs">Angular JS</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="message1">Your Message :</label>
+                    </td>
+                    <td>
+                        <textarea id="message1" rows="5" cols="30"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button>Button</button> <!-- normal button -->
+                        <input type="submit" value="submit"> <!-- submit Button -->
+                        <input type="reset" value="reset"> <!-- Reset Button -->
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+
+
+    <!-- Select and Option -->
+    <form>
+        <label for="select-language">Select a Language :</label>
+        <select id="select-language">
+            <option value="html">HTML</option>
+            <option value="javascript">JavaScripts</option>
+            <option value="css">CSS</option>
+            <option value="bootstrap">Bootstrap</option>
+            <option value="jquery">JQuery</option>
+            <option value="angularJs">Angular JS</option>
+        </select>
+    </form>
+
+    <br><br>
+    <br>
+
+    <!-- Textarea -->
+    <form>
+        <label for="message">Your Message</label>
+        <textarea id="message" rows="5" cols="10"></textarea>
+    </form>
+
+    <!-- button -->
+    <form>
+        <button>Button</button> <!-- normal button -->
+        <input type="submit" value="submit"> <!-- submit Button -->
+        <input type="reset" value="reset"> <!-- Reset Button -->
+    </form>
+    <br>
+
+    <!--HTML5 datalist -->
+    <input list="technologies" name="tech">
+    <datalist id="technologies">
+        <option value="JavaScript">
+        <option value="CSS">
+        <option value="HTML">
+        <option value="Bootstrap">
+        <option value="Angular JS">
+    </datalist>
+
+
+<br>
+<br>
+<br>
+</body>
+</html>
