@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mini project</title>
+    <link rel="icon" href="https://cdn4.iconfinder.com/data/icons/new-google-logo-2015/400/new-google-favicon-512.png">
+    <style type="text/css">
+
+
+    	body{
+    font-family: "Helvetica", sans-serif;
+    margin: 0;
+}
+header , footer{
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: yellow;
+}
+aside{
+    float: left;
+}
+
+aside ul{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+li a{
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    color: black;
+}
+li a:hover{
+    background-color: gray;
+    color: white;
+}
+
+li a.active{
+    background-color: darkslategray;
+    color: white;
+}
+
+section{
+    margin-left: 200px;
+    border-left: 2px solid gray;
+    padding: 20px;
+}
+
+div h3{
+    color: teal;
+}
+
+details{
+    background-color: teal;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+}
+
+details div{
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* Button Section */
+
+#button-section{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#teal{
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    cursor: pointer;
+}
+
+#green{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    cursor: pointer;
+}
+
+#yellow{
+    background-color: greenyellow;
+    color: black;
+    border: none;
+    padding: 14px 20px;
+    cursor: pointer;
+}
+
+#red{
+    background-color: indianred;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    cursor: pointer;
+}
+
+#teal:hover{
+    font-size: 20px;
+}
+
+#green:hover{
+    font-size: 20px;
+}
+
+#yellow:hover{
+    font-size: 20px;
+}
+
+#red:hover{
+    font-size: 20px;
+}
+    </style>
+</head>
+
+<body>
+
+<!-- Main Header -->
+<header>
+    <h1>UI Brains Technologies</h1>
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">About Us</a> |
+        <a href="#">Careers</a> |
+        <a href="#">Contact Us</a> |
+        <a href="#">Courses</a>
+    </nav>
+</header>
+
+
+
+<!-- Side Bar -->
+<aside>
+    <ul>
+        <li>
+            <a href="#" class="active">HTML</a>
+        </li>
+        <li>
+            <a href="#">CSS</a>
+        </li>
+        <li>
+            <a href="#">JavaScript</a>
+        </li>
+        <li>
+            <a href="#">JQuery</a>
+        </li>
+        <li>
+            <a href="#">AJAX</a>
+        </li>
+        <li>
+            <a href="#">Bootstrap</a>
+        </li>
+        <li>
+            <a href="#">TypeScript</a>
+        </li>
+        <li>
+            <a href="#">Angular JS</a>
+        </li>
+    </ul>
+</aside>
+
+<!-- MAIN SECTION -->
+<section>
+
+    <div id="button-section">
+        <h3>Please select a button</h3>
+        <button id="teal" onclick="document.getElementById('myStyle').setAttribute('href','teal.css')">Teal</button>
+        <button id="green" onclick="document.getElementById('myStyle').setAttribute('href','green.css')">Green</button>
+        <button id="yellow" onclick="document.getElementById('myStyle').setAttribute('href','yellow.css')">Yellow</button>
+        <button id="red" onclick="document.getElementById('myStyle').setAttribute('href','red.css')">Red</button>
+    </div>
+
+    <details>
+        <summary>HTML</summary>
+        <div>
+            <h3>HTML</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores commodi cum, dolorum eum incidunt iste laudantium molestiae molestias numquam odit quidem quod recusandae repellat reprehenderit, totam voluptates! Eveniet, sit?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ea eius est et maxime necessitatibus optio quidem temporibus? Numquam, repudiandae?</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>JavaScript</summary>
+        <div>
+            <h3>JavaScript</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores commodi cum, dolorum eum incidunt iste laudantium molestiae molestias numquam odit quidem quod recusandae repellat reprehenderit, totam voluptates! Eveniet, sit?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ea eius est et maxime necessitatibus optio quidem temporibus? Numquam, repudiandae?</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>CSS</summary>
+        <div>
+            <h3>CSS</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores commodi cum, dolorum eum incidunt iste laudantium molestiae molestias numquam odit quidem quod recusandae repellat reprehenderit, totam voluptates! Eveniet, sit?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ea eius est et maxime necessitatibus optio quidem temporibus? Numquam, repudiandae?</p>
+        </div>
+    </details>
+
+
+    <details>
+        <summary>JQuery</summary>
+        <div>
+            <h3>JQuery</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores commodi cum, dolorum eum incidunt iste laudantium molestiae molestias numquam odit quidem quod recusandae repellat reprehenderit, totam voluptates! Eveniet, sit?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ea eius est et maxime necessitatibus optio quidem temporibus? Numquam, repudiandae?</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>AJAX</summary>
+        <div>
+            <h3>AJAX</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores commodi cum, dolorum eum incidunt iste laudantium molestiae molestias numquam odit quidem quod recusandae repellat reprehenderit, totam voluptates! Eveniet, sit?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ea eius est et maxime necessitatibus optio quidem temporibus? Numquam, repudiandae?</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>Bootstrap</summary>
+        <div>
+            <h3>Bootstrap</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores commodi cum, dolorum eum incidunt iste laudantium molestiae molestias numquam odit quidem quod recusandae repellat reprehenderit, totam voluptates! Eveniet, sit?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ea eius est et maxime necessitatibus optio quidem temporibus? Numquam, repudiandae?</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>TypeScript</summary>
+        <div>
+            <h3>TypeScript</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores commodi cum, dolorum eum incidunt iste laudantium molestiae molestias numquam odit quidem quod recusandae repellat reprehenderit, totam voluptates! Eveniet, sit?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ea eius est et maxime necessitatibus optio quidem temporibus? Numquam, repudiandae?</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>Angular JS</summary>
+        <div>
+            <h3>Angular JS</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores commodi cum, dolorum eum incidunt iste laudantium molestiae molestias numquam odit quidem quod recusandae repellat reprehenderit, totam voluptates! Eveniet, sit?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ea eius est et maxime necessitatibus optio quidem temporibus? Numquam, repudiandae?</p>
+        </div>
+    </details>
+
+
+</section>
+
+<!-- Main Footer -->
+<footer>
+    <h2>Copyright &copy; 2018 UIBrains.com</h2>
+    <p>All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
